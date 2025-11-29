@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #f9f1ff;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f9f1ff; 
+}
+
+.navbar {
+    background-color: transparent !important;
+
+}
+
+.navbar-brand {
+    width: 20%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: background-color 2s, font-size 3s;
+}
+
+
+.navbar-brand:hover {
+    font-size: 25px;
+    background-color: #EA7AF4;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #290628be;
+    color:white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

@@ -9,17 +9,18 @@ body, html {
     box-sizing: inherit;
 }
 
-body, #contentSection {
-    background-color: #f9f1ff ;
+body{
+    background-color: #f9f1ff;
 }
 
 .navbar {
     background-color: transparent !important;
+
 }
 
 .navbar-brand {
     width: 20%;
-    border: 2px solid transparent;
+    border: 2px solid #ffd9da00;
     border-radius: 10px;
     transition: background-color 2s, font-size 3s;
 }
@@ -28,24 +29,6 @@ body, #contentSection {
 .navbar-brand:hover {
     font-size: 25px;
     background-color: #EA7AF4;
-}
-
-#contentSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.card {
-    box-shadow: 6px 2px 10px #3B0086;
-    margin:15px;
-    transition: background-color 3s, transform 3s, color 3s;
-}
-
-.card:hover {
-    transform: rotate(5deg);
-    background-color: #B43E8F;
-    color: white;
 }
 
 footer {
