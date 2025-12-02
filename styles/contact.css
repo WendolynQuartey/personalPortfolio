@@ -3,20 +3,17 @@ body, html {
     padding: 0;
     height: 100%;
     box-sizing: border-box;
-    background-color: #f9f1ff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 *, *::before, *::after{
     box-sizing: inherit;
 }
 
-body {
-    background-color: #f9f1ff; 
-}
-
+x
 .navbar {
     background-color: transparent !important;
-
 }
 
 .navbar-brand {
@@ -26,11 +23,55 @@ body {
     transition: background-color 2s, font-size 3s;
 }
 
-
 .navbar-brand:hover {
     font-size: 25px;
     background-color: #EA7AF4;
 }
+
+#topSection {
+    white-space: nowrap;
+    text-align: center;
+}
+
+#myImg{
+    border-radius: 10%;
+}
+
+.contactCard {
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 3px 12px 10px #EA7AF4;
+    border: 0;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    padding-top:60px;
+    text-align: center;
+    background-color: #3B0086;
+}
+
+.contactCard form {
+    margin: 0 auto;
+    width: min-content;
+    height: 100%;
+}
+
+.field {
+    background-color: #f9f1ff;
+    border: 0;
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    margin:10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+input:hover, textarea:hover, select:hover {
+    background-color: #B43E8F;
+    color: white;
+}
+
 
 footer {
     display: flex;
@@ -38,8 +79,9 @@ footer {
     justify-content: space-between;
     background-color: #290628be;
     color:white;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
 }
+

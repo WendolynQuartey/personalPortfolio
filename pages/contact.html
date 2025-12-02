@@ -19,7 +19,7 @@
 </head>
 
 <body style="background-color: #f9f1ff;">
-   <nav class="navbar bg-body-tertiary">
+   <nav class="navbar">
       <div class="container-fluid">
          <a class="navbar-brand" href="../index.html">
             <img src="../images/homeIcon.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
@@ -45,31 +45,25 @@
    <div id="topSection">
       <h1>Wendolyn Quartey</h1>
       <h3>Software Developer</h3>
-      <img style="max-height: 90px;" src="./images/me.JPG" alt="An Image of me" />
+      <img id="myImg" style="max-height: 90px;" src="../images/me.JPG" alt="An Image of me" />
    </div>
 
-   <div class="contactForm">
-      <fieldset>
+   <div class="contactCard">
+      <form>
+         <input class="field"type="text" id="userFullName" name="fullName" placeholder="Your full name..">
+         <input class="field"type="email" id="userEmail" name="email" placeholder="Your email..">
 
-         <label for="fname">Full Name</label>
-         <input type="text" id="userFullName" name="fullName" placeholder="Your full name..">
-
-         <label for="lname">Email</label>
-         <input type="email" id="userEmail" name="email" placeholder="Your email..">
-
-         <label for="country">Country</label>
-         <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+         <select class="field"id="finder" name="finder">
+            <option value="" disabled selected hidden>How did you find me?</option>
+            <option value="social">Social Media</option>
+            <option value="git">GitHub</option>
+            <option value="linkedIn">LinkedIn</option>
          </select>
+         <textarea class="field"style="text-align: left;"id="subject" name="subject" placeholder="How can I help you today?" style="height:200px"></textarea>
 
-         <label for="subject">Subject</label>
-         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+         <input class="field"style="background-color: #9A79C3;" type="submit" value="Submit" id="submit">
 
-         <input type="submit" value="Submit">
-
-      </fieldset>
+      </form>
    </div>
 </body>
 <footer>
