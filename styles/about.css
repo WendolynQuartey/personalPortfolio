@@ -18,6 +18,10 @@ body{
 
 }
 
+#bgTable table, #bgTable th, #bgTable td, #bgTable tr{
+  border:2px solid #B43E8F;
+}
+
 .navbar-brand {
     width: 20%;
     border: 2px solid #ffd9da00;
@@ -37,7 +41,7 @@ footer {
     justify-content: space-between;
     background-color: #290628be;
     color:white;
-    position: relative;
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
