@@ -7,4 +7,4 @@
 ## Resources 
 - Coolors.com for color theme
 - Pexels.com for background image and gif
-
+- Google Fonts for "Hello, Wendolyn" font
